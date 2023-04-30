@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: World
+    uniqueID: 2499089647
+    locked: 0
+  - name: UI_Main
+    uniqueID: 1499531405
+    locked: 0
+  - name: UI_AppMain
+    uniqueID: 4041850383
+    locked: 0
+  - name: UI_Popup
+    uniqueID: 4083511155
+    locked: 0
+  - name: UI_AppPopup
+    uniqueID: 1556698867
+    locked: 0
