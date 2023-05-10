@@ -1,2 +1,2 @@
 # Waifu
-A App Of Steins;Gate 
+A App About my favourite anime, Steins;Gate.
