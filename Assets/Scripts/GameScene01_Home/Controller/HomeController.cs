@@ -1154,6 +1154,7 @@ namespace HomeScene
                 if (string.IsNullOrEmpty(view.musicPageManager.GetSearchContent()))
                 {
                     musicPageValue.showingAudioClipList = storedDataValue.audioList;
+                    view.musicPageManager.UpdateScrollView(fontAsset, textContent.musicPage.oDEMusicScrollViewMusicSlot, musicPageValue.showingAudioClipList, MusicPageODEMusicScrollViewMusicSlotButtonPointerClickCallback);
                 }
                 else
                 {
