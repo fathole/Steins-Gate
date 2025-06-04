@@ -54,8 +54,8 @@ namespace GameManager
 
         public void SaveLocalData(object file)
         {
-            string content = JsonUtility.ToJson(file);
-            File.WriteAllText(Application.persistentDataPath + "/" + file.GetType().Name + ".json", Newtonsoft.Json.JsonConvert.SerializeObject(file));
+            string content = Newtonsoft.Json.JsonConvert.SerializeObject(file);
+            File.WriteAllText(Application.persistentDataPath + "/" + file.GetType().Name + ".json", content);
         }
 
         #endregion
