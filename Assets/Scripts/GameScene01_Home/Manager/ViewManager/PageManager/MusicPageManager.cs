@@ -165,7 +165,6 @@ namespace HomeScene
         public void CloseSortingPanel()
         {
             musicPage.oDESortingPanal.gameObject.SetActive(false);
-            musicPage.oDESortingPanal.gameObject.SetActive(false);
         }
 
         public void UpdateScrollView(TMP_FontAsset fontAsset, TextContentBase.MusicPage.ODEMusicScrollViewMusicSlot textContent, List<AudioClip> audioList, Action<AudioClip> onMusicSlotPointerClickCallback)
